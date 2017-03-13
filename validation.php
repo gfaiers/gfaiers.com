@@ -43,7 +43,7 @@ if ($formfield == "details_field") {
 // google captcha
 if ($formfield == "grecaptcha_error") {
         $captcha = $value;
-        $privatekey = "6LdLUAsUAAAAAMYF5ho04DItmWavjsvJgvnvSiyF";
+        $privatekey = "xxxxxxxxxxxxxxxxx";
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = array(
             'secret' => $privatekey,
