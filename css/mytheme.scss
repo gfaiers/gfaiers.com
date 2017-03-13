@@ -1,0 +1,557 @@
+/* MAIN CONTROLS */
+
+footer {
+    display: -ms-table;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    margin-top: -20px;
+}
+
+
+/* NAVBAR */
+
+/* change the appearance on hover */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    border-radius: 5px;
+    background: lightslategray;
+}
+.navbar-default {
+    background-color: white;
+    border: 0px;
+    padding-bottom: 1px;
+}
+.navbar-header {
+    background: white;
+    border: 0 none;
+}
+
+.nav_brand {
+    height: 50px;
+}
+
+.navbar {
+    padding-top: 1px;
+}
+.navbar-collapse {
+    border-width: 0px;
+}
+
+/* to centralise the buttons on small collapsed */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/* ANCHORS */
+
+@media (max-width: 768px) {
+    .anchor {
+        position: relative;
+        top: -180px;
+    }
+}
+
+/* DIFFERENT ELEMENTS */
+
+/* main title */
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: lightslategray;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+/* password strength on register modal */
+.password_strength {
+    width: 100%;
+    height: 3px;
+}
+/* most recent update */
+.front_page_note {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.download_icon {
+    height: 50px;
+}
+
+/* form controls */
+.btn_custom {
+	padding: 10px 15px;
+    margin: 2px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+	background-color: lightslategray;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #666, 0 1px 0 #444, 0 1px 1px rgba(0,0,0,0.6);
+	cursor: pointer;
+	-webkit-transition: all 150ms ease;
+	transition: all 150ms ease;
+}
+
+.btn_custom:hover, .btn_custom:focus {
+    color: black;
+}
+
+.btn_custom:active
+{
+	text-shadow: 0 -1px 0 #444, 0 0 3px #ffd, 0 0 8px #fff;
+	box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+	-webkit-transform: translateY(1px);
+	transform: translateY(1px);
+}
+
+.btn_custom_text {
+    width: 100%;
+}
+
+@media (min-width:700px) {
+    .btn_custom_text {
+        width: 30%;
+    }
+}
+
+.btn_left {
+    height: 100%;
+    position: absolute;
+    color: black;
+    background: rgba(119,136,153,0.3);
+    top: 0;
+    left: 0;
+    box-shadow: none;
+}
+
+.btn_right {
+    height: 100%;
+    position: absolute;
+    color: black;
+    background: rgba(119,136,153,0.3);
+    top: 0;
+    right: 0;
+    box-shadow: none;
+}
+
+.btn_left:hover, .btn_right:hover, .btn_left:active, .btn_right:active {
+    color: white;
+}
+
+.btn_holder {
+    display: -ms-table;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.app_image {
+    max-width: 100%;
+    max-height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_field {
+    width: 100%;
+    margin: 2px;
+}
+
+.text_area {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.captcha_img {
+    width: 160px;
+    height: 45px;
+    border: 1px;
+}
+
+/* ABOUT SECTION */
+
+/* about me (contact details etc) */
+.details_table {
+    width: 100%;
+}
+
+.details_table_titles {
+    width: 20%;
+}
+
+.details_table_details {
+    width: 80%;
+}
+
+@media (min-width: 600px){
+    .details_table {
+        width: 40%;
+    }
+    .text_area {
+        height: 300px;
+    }
+}
+
+.about_image {
+    width: 100%;
+    border: lightslategray solid 1px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px){
+    .about_image {
+        width: 300px;
+        border: lightslategray solid 1px;
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+/* social networking table of icons */
+.networking_table {
+    width: 100%;
+    margin-top:10px;
+}
+
+.networking_table_header {
+    width:16.66%;
+    text-align: center;
+}
+
+.about_section {
+    background-color: lightblue;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.about_network_images {
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* MODAL IMAGES*/
+.modal-dialog {
+    width: auto;
+    display: inline-block;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal_image {
+    max-width: 95%;
+}
+
+@media (min-width: 600px) {
+    .modal-image {
+        max-width: calc(100vw - 225px);
+        max-height: calc(100vh - 225px);
+    }
+}
+
+/* MODAL LOGIN */
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal_display_text {
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+.modal_display_button {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.modal_display {
+    width: calc(100vw - 100px);
+    text-align: left;
+    vertical-align: middle;
+}
+
+@media (min-width: 500px) {
+    .modal_display {
+        width: 400px;
+    }
+}
+
+.modal_h3 {
+    margin-top: 5px;
+}
+
+.modal_p {
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+/* ADD ANYWHERE FOR: */
+.padding_top_2px {
+    padding-top: 2px;
+}
+
+.hidden_element {
+    display: none;
+}
+
+.align_left {
+    display: flex;
+}
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.content_row {
+    padding: 5px;
+    position: relative;
+    border-bottom: 10px;
+    border-bottom-color: lightslategray;
+    border-bottom-style: solid;
+}
+
+
+
+/* FLOATING ARROW */
+.up_arrow {
+    position:fixed;
+    bottom:1%;
+    right:2%;
+    border-radius: 5px;
+    background:rgba(0,0,0,0.3);
+    padding:5px 10px;
+    color:#fff;
+    text-shadow:#000 1px 1px 1px,#000 -1px 1px 1px;
+    z-index:9999;
+    display: none;
+}
+
+.up_arrow:hover {
+    background:rgba(0,0,0,0.6);
+    
+}
+
+/* Communications.php */
+
+
+.thread_pane {
+    border-color: lightslategray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    width: 30%;
+    overflow: auto;
+}
+
+.thread_message {
+    background-color: white;
+    color: black;
+    height: 60px;
+}
+
+.line {
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.thread_preview_text {
+    font-style: italic;
+    font-size: 75%;
+}
+.thread_message:hover {
+    background-color: lightslategray;
+    border-radius: 5px;
+    color: white;
+}
+
+.thread_image {
+    padding: 5px;
+    padding-top: 4px;
+}
+
+.thread_sender {
+    font-weight: bold;
+}
+.thread_preview {
+    font-style: normal;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.actual_image {
+    height: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.messages_pane {
+    border-color: lightslategray;
+    border-width: 1px;
+    border-style: solid;
+    width: 70%;
+}
+.messages_area {
+    padding: 5px;
+    overflow: auto;
+    height: calc(100vh - 215px);
+}
+.from_holder {
+    clear: both;
+}
+.from {
+    float: right;
+    right: 0;
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    margin-left: 10%;
+}
+.to_holder {
+    clear: both;
+}
+.to {
+    float: left;
+    text-align: left;
+    left: 0;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    margin-right: 10%;
+}
+.submit_message {
+    background-color: lightgray;
+    margin-bottom: 0px;
+    padding: 5px;
+    min-height: 110px;
+    position: relative;
+}
+
+.submit_message_text {
+    width: 83%;
+    height: 100px;
+    float: left;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    padding: 2px;
+}
+
+.submit_message_button {
+    width: 16%;
+    margin: 0px;
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.info_panel {
+    height: 51px;
+    font-weight: bold;
+    font-size: 125%;
+    position: relative;
+    border-bottom: 2px solid lightslategray;
+}
+
+.info_panel_btn {
+    display: none;
+    float: left;
+    position: absolute;
+}
+
+.info_panel_name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .messages_pane {
+        width: 100%;
+        height: calc(100vh - 52px);
+        display: none;
+    }
+    .messages_area {
+        height: calc(100vh - 214px);
+    }
+    .thread_pane {
+        width: 100%;
+        height: calc(100vh - 52px);
+        /*display: none;*/
+    }
+    .info_panel_btn {
+        display:inline;
+    }
+}
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+* And with max cross-browser enabled.
+* Nobody should ever write this by hand. 
+* Use a preprocesser with autoprefixing.
+*/
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}

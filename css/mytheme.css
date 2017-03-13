@@ -1,0 +1,557 @@
+/* MAIN CONTROLS */
+/* line 3, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+footer {
+  display: -ms-table;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 11, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+main {
+  margin-top: -20px; }
+
+/* NAVBAR */
+/* change the appearance on hover */
+/* line 19, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  border-radius: 5px;
+  background: lightslategray; }
+
+/* line 24, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar-default {
+  background-color: white;
+  border: 0px;
+  padding-bottom: 1px; }
+
+/* line 29, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar-header {
+  background: white;
+  border: 0 none; }
+
+/* line 34, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.nav_brand {
+  height: 50px; }
+
+/* line 38, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar {
+  padding-top: 1px; }
+
+/* line 41, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar-collapse {
+  border-width: 0px; }
+
+/* to centralise the buttons on small collapsed */
+/* line 46, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none; }
+
+/* line 51, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.navbar .navbar-collapse {
+  text-align: center; }
+
+/* ANCHORS */
+@media (max-width: 768px) {
+  /* line 57, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .anchor {
+    position: relative;
+    top: -180px; } }
+
+/* DIFFERENT ELEMENTS */
+/* main title */
+/* line 66, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.jumbotron {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: lightslategray;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em; }
+
+/* password strength on register modal */
+/* line 78, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.password_strength {
+  width: 100%;
+  height: 3px; }
+
+/* most recent update */
+/* line 83, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.front_page_note {
+  font-size: 15px;
+  padding-top: 5px; }
+
+/* line 88, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.download_icon {
+  height: 50px; }
+
+/* form controls */
+/* line 93, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_custom {
+  padding: 10px 15px;
+  margin: 2px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  background-color: lightslategray;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #666, 0 1px 0 #444, 0 1px 1px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease; }
+
+/* line 107, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_custom:hover, .btn_custom:focus {
+  color: black; }
+
+/* line 111, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_custom:active {
+  text-shadow: 0 -1px 0 #444, 0 0 3px #ffd, 0 0 8px #fff;
+  box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px); }
+
+/* line 119, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_custom_text {
+  width: 100%; }
+
+@media (min-width: 700px) {
+  /* line 124, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .btn_custom_text {
+    width: 30%; } }
+
+/* line 129, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_left {
+  height: 100%;
+  position: absolute;
+  color: black;
+  background: rgba(119, 136, 153, 0.3);
+  top: 0;
+  left: 0;
+  box-shadow: none; }
+
+/* line 139, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_right {
+  height: 100%;
+  position: absolute;
+  color: black;
+  background: rgba(119, 136, 153, 0.3);
+  top: 0;
+  right: 0;
+  box-shadow: none; }
+
+/* line 149, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_left:hover, .btn_right:hover, .btn_left:active, .btn_right:active {
+  color: white; }
+
+/* line 153, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.btn_holder {
+  display: -ms-table;
+  display: table;
+  text-align: center;
+  width: 100%; }
+
+/* line 160, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.app_image {
+  max-width: 100%;
+  max-height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 168, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.text_field {
+  width: 100%;
+  margin: 2px; }
+
+/* line 173, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.text_area {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 181, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.captcha_img {
+  width: 160px;
+  height: 45px;
+  border: 1px; }
+
+/* ABOUT SECTION */
+/* about me (contact details etc) */
+/* line 190, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.details_table {
+  width: 100%; }
+
+/* line 194, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.details_table_titles {
+  width: 20%; }
+
+/* line 198, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.details_table_details {
+  width: 80%; }
+
+@media (min-width: 600px) {
+  /* line 203, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .details_table {
+    width: 40%; }
+  /* line 206, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .text_area {
+    height: 300px; } }
+
+/* line 211, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.about_image {
+  width: 100%;
+  border: lightslategray solid 1px;
+  margin-bottom: 10px; }
+
+@media (min-width: 600px) {
+  /* line 218, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .about_image {
+    width: 300px;
+    border: lightslategray solid 1px;
+    float: left;
+    margin-right: 10px; } }
+
+/* social networking table of icons */
+/* line 227, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.networking_table {
+  width: 100%;
+  margin-top: 10px; }
+
+/* line 232, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.networking_table_header {
+  width: 16.66%;
+  text-align: center; }
+
+/* line 237, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.about_section {
+  background-color: lightblue;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+/* line 243, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.about_network_images {
+  height: 30px;
+  margin: 0px;
+  padding: 0px; }
+
+/* MODAL IMAGES*/
+/* line 250, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal-dialog {
+  width: auto;
+  display: inline-block; }
+
+/* line 255, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal {
+  text-align: center; }
+
+/* line 259, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal_image {
+  max-width: 95%; }
+
+@media (min-width: 600px) {
+  /* line 264, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .modal-image {
+    max-width: calc(100vw - 225px);
+    max-height: calc(100vh - 225px); } }
+
+/* MODAL LOGIN */
+/* line 272, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal {
+  text-align: center; }
+
+@media screen and (min-width: 768px) {
+  /* line 277, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%; } }
+
+/* line 285, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal_display_text {
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 100%; }
+
+/* line 292, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal_display_button {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+  margin-bottom: 2px; }
+
+/* line 300, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal_display {
+  width: calc(100vw - 100px);
+  text-align: left;
+  vertical-align: middle; }
+
+@media (min-width: 500px) {
+  /* line 307, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .modal_display {
+    width: 400px; } }
+
+/* line 312, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal_h3 {
+  margin-top: 5px; }
+
+/* line 316, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.modal_p {
+  margin-bottom: 0px;
+  margin-top: 2px; }
+
+/* ADD ANYWHERE FOR: */
+/* line 321, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.padding_top_2px {
+  padding-top: 2px; }
+
+/* line 325, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.hidden_element {
+  display: none; }
+
+/* line 329, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.align_left {
+  display: flex; }
+
+/* line 332, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.cursor_pointer {
+  cursor: pointer; }
+
+/* line 336, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.content_row {
+  padding: 5px;
+  position: relative;
+  border-bottom: 10px;
+  border-bottom-color: lightslategray;
+  border-bottom-style: solid; }
+
+/* FLOATING ARROW */
+/* line 347, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.up_arrow {
+  position: fixed;
+  bottom: 1%;
+  right: 2%;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  color: #fff;
+  text-shadow: #000 1px 1px 1px,#000 -1px 1px 1px;
+  z-index: 9999;
+  display: none; }
+
+/* line 360, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.up_arrow:hover {
+  background: rgba(0, 0, 0, 0.6); }
+
+/* Communications.php */
+/* line 368, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_pane {
+  border-color: lightslategray;
+  border-width: 1px;
+  border-style: solid;
+  padding: 3px;
+  width: 30%;
+  overflow: auto; }
+
+/* line 377, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_message {
+  background-color: white;
+  color: black;
+  height: 60px; }
+
+/* line 383, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.line {
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid; }
+
+/* line 389, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_preview_text {
+  font-style: italic;
+  font-size: 75%; }
+
+/* line 393, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_message:hover {
+  background-color: lightslategray;
+  border-radius: 5px;
+  color: white; }
+
+/* line 399, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_image {
+  padding: 5px;
+  padding-top: 4px; }
+
+/* line 404, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_sender {
+  font-weight: bold; }
+
+/* line 407, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.thread_preview {
+  font-style: normal;
+  font-weight: 100;
+  padding: 10px; }
+
+/* line 413, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.actual_image {
+  height: 48px;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 419, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.messages_pane {
+  border-color: lightslategray;
+  border-width: 1px;
+  border-style: solid;
+  width: 70%; }
+
+/* line 425, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.messages_area {
+  padding: 5px;
+  overflow: auto;
+  height: calc(100vh - 215px); }
+
+/* line 430, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.from_holder {
+  clear: both; }
+
+/* line 433, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.from {
+  float: right;
+  right: 0;
+  text-align: left;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+  margin-left: 10%; }
+
+/* line 443, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.to_holder {
+  clear: both; }
+
+/* line 446, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.to {
+  float: left;
+  text-align: left;
+  left: 0;
+  background-color: lightblue;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+  margin-right: 10%; }
+
+/* line 456, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.submit_message {
+  background-color: lightgray;
+  margin-bottom: 0px;
+  padding: 5px;
+  min-height: 110px;
+  position: relative; }
+
+/* line 464, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.submit_message_text {
+  width: 83%;
+  height: 100px;
+  float: left;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
+  outline: none;
+  padding: 2px; }
+
+/* line 474, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.submit_message_button {
+  width: 16%;
+  margin: 0px;
+  float: right;
+  position: absolute;
+  bottom: 5px;
+  right: 5px; }
+
+/* line 482, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.info_panel {
+  height: 51px;
+  font-weight: bold;
+  font-size: 125%;
+  position: relative;
+  border-bottom: 2px solid lightslategray; }
+
+/* line 490, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.info_panel_btn {
+  display: none;
+  float: left;
+  position: absolute; }
+
+/* line 496, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.info_panel_name {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; }
+
+@media (max-width: 768px) {
+  /* line 506, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .messages_pane {
+    width: 100%;
+    height: calc(100vh - 52px);
+    display: none; }
+  /* line 511, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .messages_area {
+    height: calc(100vh - 214px); }
+  /* line 514, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .thread_pane {
+    width: 100%;
+    height: calc(100vh - 52px);
+    /*display: none;*/ }
+  /* line 519, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+  .info_panel_btn {
+    display: inline; } }
+
+/* line 523, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.row.is-flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 527, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.row.is-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column; }
+
+/*
+* And with max cross-browser enabled.
+* Nobody should ever write this by hand. 
+* Use a preprocesser with autoprefixing.
+*/
+/* line 537, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.row.is-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+/* line 547, C:/Users/Geoff/Desktop/Web Dev/gfaiers.com/css/mytheme.scss */
+.row.is-flex > [class*='col-'] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*# sourceMappingURL=mytheme.css.map */
