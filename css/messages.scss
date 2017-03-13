@@ -1,0 +1,426 @@
+/* NAVBAR */
+/* change the appearance on hover */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    border-radius: 5px;
+    background: lightslategray;
+}
+
+.navbar-default {
+    background-color: lightgray;
+    border: 0px;
+}
+
+.navbar-header {
+    background-color: lightgray;
+    border: 0 none;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav_brand {
+    height: 50px;
+}
+
+.navbar-collapse {
+    border-width: 0px;
+}
+
+/* to centralise the buttons on small collapsed */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/* DIFFERENT ELEMENTS */
+
+.download_icon {
+    height: 50px;
+}
+
+/* form controls */
+.btn_custom {
+	padding: 10px 15px;
+    margin: 2px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+	background-color: lightslategray;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #666, 0 1px 0 #444, 0 1px 1px rgba(0,0,0,0.6);
+	cursor: pointer;
+	-webkit-transition: all 150ms ease;
+	transition: all 150ms ease;
+}
+
+.btn_custom:hover, .btn_custom:focus {
+    color: black;
+}
+
+.btn_custom:active {
+	text-shadow: 0 -1px 0 #444, 0 0 3px #ffd, 0 0 8px #fff;
+	box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+	-webkit-transform: translateY(1px);
+	transform: translateY(1px);
+}
+
+.text_field {
+    width: 100%;
+    margin: 2px;
+}
+
+.text_area {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* MODAL IMAGES*/
+.modal-dialog {
+    width: auto;
+    display: inline-block;
+}
+
+.modal {
+    text-align: center;
+}
+
+/* MODAL LOGIN */
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal_display_text {
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+.modal_display_button {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.modal_display {
+    width: calc(100vw - 100px);
+    text-align: left;
+    vertical-align: middle;
+}
+
+@media (min-width: 500px) {
+    .modal_display {
+        width: 400px;
+    }
+}
+
+.modal_h3 {
+    margin-top: 5px;
+}
+
+.modal_p {
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+/* ADD ANYWHERE FOR: */
+.padding_top_2px {
+    padding-top: 2px;
+}
+
+.hidden_element {
+    display: none;
+}
+
+.align_left {
+    display: flex;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+/* Main display */
+
+.line {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    display: inline;
+    position: absolute;
+    left: 250px;
+    height: 100%;
+}
+
+.thread_pane {
+    width: 250px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.threads {
+    height: calc(100% - 52px);
+    overflow: auto;
+}
+
+.thread_message {
+    background-color: white;
+    color: black;
+    height: 60px;
+    margin: 2px;
+}
+
+.thread_message:hover {
+    background-color: lightslategray;
+    border-radius: 5px;
+    color: white;
+}
+
+.thread_message:hover .badge {
+    background-color: white;
+    color: black;
+}
+
+.badge {
+    background-color: lightslategray;
+}
+
+.thread_image {
+    margin-top: 2px;
+    padding: 5px;
+    padding-top: 4px;
+    float: left;
+}
+
+.thread_preview {
+    font-style: normal;
+    font-weight: 100;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.thread_sender {
+    font-weight: bold;
+}
+
+.thread_preview_text {
+    font-style: italic;
+    font-size: 75%;
+    overflow: hidden;
+}
+
+.actual_image {
+    height: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.messages_pane {
+    width: calc(100% - 252px);
+    position: absolute;
+    left: 252px;
+    top: 0px;
+}
+
+.messages_area {
+    padding: 5px;
+    overflow: auto;
+    height: calc(100vh - 160px);
+}
+.centered_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.from_holder {
+    clear: both;
+}
+
+.from {
+    float: right;
+    right: 0;
+    text-align: left;
+    background-color: lightblue;
+    border-color: lightslategray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.to_holder {
+    clear: both;
+}
+
+.to {
+    float: left;
+    text-align: left;
+    left: 0;
+    background-color: lightgray;
+    border-color: lightslategray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    margin-right: 10%;
+}
+
+.submit_message {
+    background-color: white;
+    margin-bottom: 0px;
+    border-top-color: lightgray;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 5px;
+    min-height: 110px;
+    position: relative;
+}
+
+.submit_message_text {
+    width: 83%;
+    height: 100px;
+    float: left;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    padding: 2px;
+    border-color: lightgray;
+}
+
+.emoticon {
+    width: calc(16% - 8%);
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(50% - 15px);
+}
+.emoticon:hover {
+    cursor: pointer;
+}
+
+.emoticon:active {
+    color: lightslategray;
+}
+
+.large {
+    font-size: 120%;
+}
+
+.extra_large {
+    font-size: 300%;
+}
+
+.dislike {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.like {
+    position: absolute;
+    right: calc(9%);
+    top: 5px;
+}
+
+.submit_message_button {
+    width: 16%;
+    margin: 0px;
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: none;
+    background-color: white;
+    height: calc(100% - 50%);
+}
+
+.info_panel {
+    height: 50px;
+    font-weight: bold;
+    font-size: 125%;
+    position: relative;
+    border-bottom: 2px solid lightgray;
+    background-color: lightgray;
+}
+
+.info_panel_btn {
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: lightgray;
+    border: none;
+    height: 100%;
+    width: 10%;
+}
+
+.info_panel_btn:active {
+    color: lightslategray;
+}
+
+.info_panel_name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .messages_pane {
+        width: 100%;
+        display: none;
+        left: 0px;
+    }
+    .messages_area {
+        height: calc(100vh - 160px);
+    }
+    .thread_pane {
+        width: 100%;
+        height: calc(100vh - 2px);
+    }
+    .info_panel_btn {
+        display:inline;
+    }
+    .line {
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); 
+}
