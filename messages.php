@@ -126,8 +126,8 @@
                 <?php 
                 if (isset($_SESSION['user_id'])) {
                     include_once("includes/functions.php");
-                    $encryption_key = 'KJGHfdfIYY£E4534ffefI%HIE723872u3hui2398y6%$3hguu34';
-                    $secret_iv = 'thisis===16bytes';
+                    $encryption_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+                    $secret_iv = 'xxxxxxxxxxxxxxxx';
                     $email = pkcs7_unpad(openssl_decrypt(
                         $_SESSION['user_id'],
                         'AES-256-CBC',
